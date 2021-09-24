@@ -1,5 +1,5 @@
 const initBg = (autoplay = true) => {
-//The next few lines makes sure the backgrounds are dynamic and unique
+    //The next few lines makes sure the backgrounds are dynamic and unique
     var ran3num = [];
 
     for (var i = 0; i < 3; i++) {
@@ -42,11 +42,12 @@ const setBg = id => {
 }
 
 const setBgOverlay = () => {
-    const windowWidth = window.innerWidth;
+    var windowWidth = window.innerWidth;
     const bgHeight = $('body').height();
     const tmBgLeft = $('.tm-bg-left');
 
     $('.tm-bg').height(bgHeight);
+
 
     if (windowWidth > 1250) {
         tmBgLeft.css('border-left', `0`)
