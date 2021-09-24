@@ -48,7 +48,7 @@ const setBgOverlay = () => {
 
     $('.tm-bg').height(bgHeight);
 
-    if (windowWidth > 768) {
+    if (windowWidth > 1250) {
         tmBgLeft.css('border-left', `0`)
             .css('border-top', `${bgHeight}px solid transparent`);
     } else {
