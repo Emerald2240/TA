@@ -1,7 +1,7 @@
 
 <?php
 //require_once "config/connect.php";
-require_once "functions.php";
+require_once "functions/functions.php";
 //session_start();
 ?>
 <!DOCTYPE html>
