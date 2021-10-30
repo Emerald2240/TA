@@ -1,6 +1,6 @@
 <?php
 //require_once "config/connect.php";
-require_once "php/functions.php";
+require_once "functions/functions.php";
 //session_start();
 ?>
 <div class="tm-col-right">

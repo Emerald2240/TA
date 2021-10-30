@@ -1,7 +1,7 @@
 
 <?php
 //require_once "config/connect.php";
-require_once "php/functions.php";
+require_once "functions.php";
 //session_start();
 ?>
 <!DOCTYPE html>
@@ -9,7 +9,7 @@ require_once "php/functions.php";
 
 <head>
    <!-- header_files.php -->
-   <?php require_once('php/includes/header_files.php') ?>
+   <?php require_once('includes/header_files.php') ?>
     <title>Tech Acoustic Home Page</title>
 </head>
 
@@ -18,9 +18,9 @@ require_once "php/functions.php";
         <div>
             <div class="tm-row pt-4">
                <!-- //Header.php -->
-               <?php require_once('php/includes/header.php') ?>
+               <?php require_once('includes/header.php') ?>
             <!-- //navbar.php -->
-            <?php require_once('php/includes/navbar.php') ?>
+            <?php require_once('includes/navbar.php') ?>
             </div>
 
             <div class="tm-row">
@@ -50,7 +50,7 @@ require_once "php/functions.php";
             </div>
             <div class="tm-col-right tm-col-footer">
               <!-- footer.php -->
-              <?php require_once('php/includes/footer.php') ?>
+              <?php require_once('includes/footer.php') ?>
             </div>
         </div>
 
@@ -62,7 +62,7 @@ require_once "php/functions.php";
     </div>
 
   <!-- home_js_files.php -->
-  <?php require_once('php/includes/home_js_files.php') ?>
+  <?php require_once('includes/home_js_files.php') ?>
 </body>
 
 </html>

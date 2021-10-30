@@ -3,7 +3,7 @@
 
 <head>
    <!-- header_files.php -->
-   <?php require_once('php/includes/header_files.php') ?>
+   <?php require_once('includes/header_files.php') ?>
     <title>Tech Acoustic Menu and Top rated items Page</title>
 </head>
 
@@ -12,9 +12,9 @@
         <div>
         <div class="tm-row pt-4">
                <!-- //Header.php -->
-               <?php require_once('php/includes/header.php') ?>
+               <?php require_once('includes/header.php') ?>
             <!-- //navbar.php -->
-            <?php require_once('php/includes/navbar.php') ?>
+            <?php require_once('includes/navbar.php') ?>
             </div>
 
             <div class="tm-row">
@@ -68,7 +68,7 @@
             </div>
             <div class="tm-col-right tm-col-footer">
               <!-- footer.php -->
-              <?php require_once('php/includes/footer.php') ?>
+              <?php require_once('includes/footer.php') ?>
             </div>
         </div>
 
@@ -80,7 +80,7 @@
     </div>
 
   <!-- home_js_files.php -->
-  <?php require_once('php/includes/home_js_files.php') ?>
+  <?php require_once('includes/home_js_files.php') ?>
 </body>
 
 </html>
